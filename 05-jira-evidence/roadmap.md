@@ -1,86 +1,82 @@
-# Smart Weather Platform – Product Roadmap
+# Product Backlog – Smart Weather Platform
 
-## Project Overview
+## Purpose
 
-The Smart Weather Platform was planned using an Agile/Scrum approach. The roadmap organizes the product into major functional areas and aligns them with a three-sprint delivery plan.
+The product backlog contains the prioritized requirements for the Smart Weather Platform. The backlog translates the product vision and business requirements into epics and user stories that can be planned and delivered through Agile sprints.
 
-## Product Vision
+## Prioritization Approach
 
-Build a Smart Weather platform that provides users with a simple and reliable way to access weather information and forecasts while supporting future enhancements and business innovation.
+Backlog items were prioritized based on:
 
-## Major Product Areas
+- Business value
+- User impact
+- Product dependencies
+- Implementation sequence
+- MVP requirements
 
-### Epic 1 – Client Registration
-- User registration
-- User profile management
-- Account information
-- Basic user validation
+Priority levels:
 
-### Epic 2 – Weather Information
-- Current weather information
-- Location-based weather data
-- Weather condition details
-- Temperature and related information
+- **High** – Required for the core product and MVP
+- **Medium** – Important enhancement or supporting capability
+- **Low** – Future enhancement
 
-### Epic 3 – Weather Forecast
-- Forecast information
-- Multi-day forecast
-- Forecast details
-- User-friendly forecast presentation
+---
 
-### Epic 4 – Product/Service Development
-- Weather-related product/service capabilities
-- Service improvements
-- Business requirements
-- Customer-focused enhancements
+## Epic 1 – User Registration & Account Management
 
-### Epic 5 – Business Innovation
-- Business innovation initiatives
-- Future product enhancements
-- Customer experience improvements
-- Opportunities for platform expansion
+| ID | User Story | Priority | Story Points | Sprint |
+|---|---|---|---:|---|
+| US-01 | As a user, I want to register for an account so that I can access the platform. | High | 5 | Sprint 1 |
+| US-02 | As a user, I want to log in securely so that I can access my account. | High | 3 | Sprint 1 |
+| US-03 | As a user, I want to manage my profile so that my information remains up to date. | Medium | 3 | Sprint 1 |
 
-## Release Roadmap
+## Epic 2 – Weather Information
 
-| Release | Focus | Planned Sprint |
-|---|---|---|
-| Release 1 | Client Registration & Business Logic | Sprint 1 |
-| Release 2 | Product/Service Development | Sprint 2 |
-| Release 3 | Business Innovation & Enhancements | Sprint 3 |
+| ID | User Story | Priority | Story Points | Sprint |
+|---|---|---|---:|---|
+| US-04 | As a user, I want to view current weather conditions so that I can understand the weather in my location. | High | 5 | Sprint 2 |
+| US-05 | As a user, I want to search for weather by location so that I can check conditions for different places. | High | 5 | Sprint 2 |
+| US-06 | As a user, I want to view weather details such as temperature, humidity, and wind so that I can make informed decisions. | High | 5 | Sprint 2 |
 
-## Sprint Roadmap
+## Epic 3 – Forecasting
 
-### Sprint 1 – Foundation
-**Focus:** Client Registration and Business Logic
+| ID | User Story | Priority | Story Points | Sprint |
+|---|---|---|---:|---|
+| US-07 | As a user, I want to view a weather forecast so that I can plan upcoming activities. | High | 8 | Sprint 2 |
+| US-08 | As a user, I want to view forecast information for multiple days so that I can plan ahead. | High | 5 | Sprint 3 |
+| US-09 | As a user, I want forecast information to be presented clearly so that it is easy to understand. | Medium | 3 | Sprint 3 |
 
-Key activities:
-- Client registration requirements
-- User-related functionality
-- Business rules
-- Initial product foundation
+## Epic 4 – Alerts & Notifications
 
-### Sprint 2 – Product/Service Development
-**Focus:** Product and service capabilities
+| ID | User Story | Priority | Story Points | Sprint |
+|---|---|---|---:|---|
+| US-10 | As a user, I want to receive weather alerts so that I can be aware of significant weather conditions. | High | 5 | Sprint 3 |
+| US-11 | As a user, I want to configure notification preferences so that I receive relevant alerts. | Medium | 3 | Sprint 3 |
+| US-12 | As a user, I want to receive timely notifications so that I can respond to changing weather conditions. | Medium | 5 | Sprint 3 |
 
-Key activities:
-- Weather platform functionality
-- Product/service development
-- Customer-focused requirements
-- Integration of planned features
+## Epic 5 – Product & Business Innovation
 
-### Sprint 3 – Business Innovation
-**Focus:** Innovation and product enhancement
+| ID | User Story | Priority | Story Points | Sprint |
+|---|---|---|---:|---|
+| US-13 | As a product stakeholder, I want weather information to support future product enhancements. | Medium | 3 | Sprint 3 |
+| US-14 | As a product stakeholder, I want the platform to support scalable features so that additional capabilities can be introduced later. | Medium | 5 | Sprint 3 |
+| US-15 | As a product stakeholder, I want user and weather insights to support future business decisions. | Low | 3 | Sprint 3 |
 
-Key activities:
-- Business innovation initiatives
-- Enhancement opportunities
-- Product improvements
-- Final review of planned functionality
+---
 
-## Roadmap Management
+## Backlog Summary
 
-The roadmap was used to provide a high-level view of planned product development. Detailed requirements were maintained in the product backlog and sprint-level execution was tracked through the Scrum board and sprint reports in Jira.
+| Epic | User Stories | Planned Sprint |
+|---|---:|---|
+| User Registration & Account Management | 3 | Sprint 1 |
+| Weather Information | 3 | Sprint 2 |
+| Forecasting | 3 | Sprint 2–3 |
+| Alerts & Notifications | 3 | Sprint 3 |
+| Product & Business Innovation | 3 | Sprint 3 |
+| **Total** | **15** | **3 Sprints** |
 
-## Agile Approach
+## Agile Planning Notes
 
-The roadmap was designed to support incremental delivery. Requirements were broken down into epics and user stories, prioritized in the product backlog, and progressively planned across three sprints.
+The backlog was structured to deliver core user functionality first and then progressively introduce forecasting, notifications, and future business capabilities.
+
+Sprint allocation was based on priority, dependencies, and the intended product delivery sequence. Backlog items could be refined, reprioritized, or moved between sprints during backlog refinement and sprint planning.
