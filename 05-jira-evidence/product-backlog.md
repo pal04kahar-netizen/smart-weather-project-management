@@ -9,10 +9,10 @@ The product backlog contains the prioritized work required to develop the Smart 
 The project backlog was organized around five major epics:
 
 1. Client Registration
-2. Weather Information
-3. Weather Forecast
-4. Product/Service Development
-5. Business Innovation
+2. Business Logic
+3. Building Products and Services 
+4. Business Model
+4. Business Innovation 
 
 ## Prioritized Backlog
 
