@@ -13,12 +13,11 @@ Build a Smart Weather platform that provides users with a simple and reliable wa
 The product roadmap is organized around five major epics:
 
 
-1. Client Registration - User Registration & Account Management 
-2. Business Logic - Weather Information
-3. Building Products and Services - Forecasting
-4. Business Model -Alerts & Notifications
-4. Business Innovation -Product & Business Innovation
-
+1. Client Registration
+2. Business Logic
+3. Building Products and Services 
+4. Business Model
+4. Business Innovation 
 ---
 
 ## Release Roadmap
